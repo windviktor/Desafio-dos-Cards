@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%; 
+    background-color: var(--cor-primaria);
+}
+
+:root {
+    --cor-primaria:#398e79;
+    --cor-segundaria:#A4DDC6;
+    --cor-terciaria:#B5F0D8;
+    --cor-quarternaria:#B9E3E8;
+    --cor--quinta:#CDD2EC;
+}
+
+input {
+    background-color: var(--cor-segundaria);
+    border-radius: 4px;
+    border: transparent;
+    width: 150px;
+}
+
+input::placeholder {
+    color:rgb(3, 19, 71);
+}
+
+input[type="text"]:focus {
+    border-color: transparent;
+    box-shadow: inset 0 2px 4px rgba(4, 25, 96, 0.3);
+}
+
+input[type="color"] {
+    height: 50px;
+    width: 50px;
+}
+
+.formulario{
+    background-color: azure;
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.botao {
+    height: 70px;
+    width: 7px;
+}
+
+.butao {
+    background-color: rgb(141, 105, 224);
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.butao:hover {
+    background-color: rgb(171, 224, 174);
+}
+
+#cards1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+input {
+    transition: 0.3 ease;
+}
+input:hover {
+    background-color: var(--cor-primaria);
+    
+}

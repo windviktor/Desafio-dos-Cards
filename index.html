@@ -4,43 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    
     <title>Cards</title>
 </head>
 <body>
     <header>
         <h1 id="titulo1">Cards</h1>
     </header>
-    
-    <main style="display: flex;">
+    <main id="Pagina-principal">
 
-
-        <form action="" class="formulario" id="formulario">
+        <div action="" class="formulario" id="formulario" >
             <h2 class="Titulo1">Criar Card</h2>
-            <input type="text" placeholder="Nome do Card"  id="name1"></input>
+            <input type="text" placeholder="Nome do Card" id="name1"></input>
             <input type="text" placeholder="Valor" id="Valor1"></input> <!--maxlength="7" minlength="2">-->
-            <input type="color" placeholder="escolha a cor">
-            <p id="mensagem"></p>
-            <button class="butao" style="height: 50px; width: 100px;" onclick="criarCard()"> Criar Card</button>
-        </form>
-       <ul id="cards1">
-            <!--<div >
-                <div class="cards">
-                    <img src=""  style="height: 100px; width: 100px;">
-                </div>
-                <div class="card-body">
-                    <h3 class="card-title" style="font-size: 30px;"></h3>
-                    <p class="card-description"></p>
-                    <button>
-                        <span class="mdi mdi-pail-remove-outline"></span>
-                    </button>
-                </div>-->
-        </ul>
-
+            <label for="">Cor do seu card</label>
+            <input type="color" id="cor1" title="Escolha a cor do seu card"></input>
+            <p id="mensagem" style="display: flex;"></p>
+            <button class="butao" type="button" onclick="criarCard()"> Criar Card</button>
         </div>
+       <div id="cards1">
+        </div>
+        <div>
         </div>
         
     </main>
     <script src="index.js"></script>
 </body>
 </html>
-

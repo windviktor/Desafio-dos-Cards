@@ -60,13 +60,18 @@ input[type="color"] {
 
 #cards1 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 10px;
+    align-items: center;
+    gap: 7px;
 }
 
 .cards{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 10px;
+
 }
 input {
     transition: 0.3 ease;
@@ -75,3 +80,24 @@ input:hover {
     background-color: var(--cor-primaria);
     
 }
+
+.Titulo1{
+    display: flex;
+    justify-content: center;
+}
+
+#mensagem {
+    display: flex;
+    justify-content: center;
+}
+
+#Pagina-principal{
+    display: flex; 
+    padding-left: 10px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
